@@ -1,0 +1,285 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    background-color: #F8F8F8;
+    overflow-x: hidden;
+}
+
+
+
+/*
+    HEADER - ALL
+*/
+.header {
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+.header-content {
+    text-align: right;
+    margin-right: 1vw;
+    z-index: 999;
+}
+.header-content-items button {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    border-style: none;
+    color: red;
+    margin-right: 2vw;
+    margin-top: 2vh;
+}
+
+
+
+/*
+    INDEX
+*/
+.slider {
+    flex: 1;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.slider--width {
+    height: 100%;
+    display: flex;
+    transition: all ease 1s;
+}
+
+.slider--item {
+    width: 100vw;
+    height: inherit;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: #FFF;
+    text-shadow: 0px 1px 1px #333;
+    font-size: 50px;
+}
+
+.slider--controls {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-top: -7vh;
+}
+.slider--control {
+    color: rgba(0, 0, 0, 0.460);
+    font-size: 20px;
+    text-align: center;
+    line-height: 68px;
+    width: 25px;
+    height: 60px;
+    background-color: rgba(255, 118, 118, 0.46);
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.2s;
+    margin: 15px;
+}
+
+.slider--control:hover {
+    color: #000;
+    background-color: rgb(255, 62, 62);
+    width: 30px;
+    height: 70px;
+    line-height: 78px;
+}
+
+.slider--control:hover:active{
+    background-color: rgb(83, 83, 83);
+    width: 25px;
+    height: 60px;
+    line-height: 75px;
+}
+
+.slide1-content {
+    text-align: center;
+    width: 100%;
+    height: 75vh;
+}
+.slide1-content h3 {
+    color: white;
+}
+.slide1-content p {
+    font-size: 20px;
+    color: white;
+    margin-right: 30vw;
+    margin-left: 30vw;
+}
+.slide1-content button {
+    font-size: 20px;
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+    cursor: pointer;
+    background-color: gainsboro;
+}
+
+
+
+/*
+    TENIS
+*/
+.t1-main{
+    width: 100%;
+    height: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-left: -25px;
+}
+.t1-main-content {
+    width: auto;
+    height: auto;
+    margin-left: 50px;
+}
+.t1-main-content h3,.t1-main-content h5{
+    margin-top: -20px;
+    color: rgb(83, 83, 83);
+}
+.t1-main-content h2 {
+    max-width: 345px;
+}
+.infobtn{
+    border: none;
+    background-color: rgb(240, 240, 240);
+    height: 25px;
+}
+.sizebtn,.sizebtn-zucolas {
+    margin: 5px;
+    font-size: 16px;
+    width: 75px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid gainsboro;
+}
+.sizebtn:hover,.sizebtn-zucolas:hover {
+    border: 1px solid rgb(155, 155, 155);
+    cursor: pointer;
+}
+.sizebtn:active,.sizebtn:focus,.sizebtn-zucolas:active,.sizebtn-zucolas:focus {
+    border: 1px solid black;
+}
+.sizebtn-locked {
+    cursor: not-allowed;
+    margin: 5px;
+    font-size: 16px;
+    width: 75px;
+    height: 40px;
+    background-color: rgb(240, 240, 240);
+    border: 1px solid gainsboro;
+}
+.t1-main-content-btns {
+    margin-left: -5px;
+}
+.comprar-agora{
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    background-color: #E91C23;
+}
+.tenis--slider {
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+}
+.tenis--slider--width {
+    height: 100%;
+    display: flex;
+    transition: all ease 1s;
+}
+.tenis--slider--item {
+    width: 400px;
+    background-position: center;
+    background-size: cover;
+}
+.tenis--slider--controls {
+    position: relative;
+    width: 450px;
+    height: 100px;
+    display: flex;
+    justify-content:space-between;
+    margin-left: -25px;
+    margin-top: -150px;
+}
+.tenis--slider--control {
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+
+/*
+    COLEÇÕES
+*/
+.titulo-colecao {
+    width: 100%;
+    text-align: center;
+}
+.t3-all {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.imagem-colecao1-1, .imagem-colecao2-1, .imagem-colecao3-1 {
+    width: 300px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.t3-1:hover .imagem-colecao1-2 {
+    opacity: 1;
+    transition: all ease 0.3s;
+}
+.imagem-colecao1-2 {
+    width: 300px;
+    opacity: 0;
+    position: absolute;
+    margin-left: -325px;
+}
+.imagem-colecao2-2 {
+    width: 300px;
+    position: absolute;
+    margin-left: -325px;
+    opacity: 0;
+}
+.t3-2:hover .imagem-colecao2-2 {
+    opacity: 1;
+    transition: all ease 0.3s;
+}
+.imagem-colecao3-2 {
+    width: 300px;
+    position: absolute;
+    margin-left: -325px;
+    opacity: 0;
+}
+.t3-3:hover .imagem-colecao3-2 {
+    opacity: 1;
+    transition: all ease 0.3s;
+}
+
+
+
+.footer {
+    width: 100%;
+    text-align: center;
+    color: red;
+    margin-top: -4vh;
+    cursor: default;
+}

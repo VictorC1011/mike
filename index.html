@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Início | Mike</title>
+    <link rel="icon" type="image/x-icon" href="/img/logo.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+<style>
+    body {overflow-y: hidden;}
+</style>
+<body>
+    
+    <header>
+        <div class="header">
+            <div class="header-content">
+                <div class="header-content-items">
+                    <img src="./img/logo.png" style="width: 50px; position: absolute; float: left; position: relative; margin-left: 2vw; cursor: pointer;" onclick="reload()">
+                    <button onclick="pagehomem()">Homem</button>
+                    <button onclick="pagemulher()">Mulher</button>
+                    <button onclick="pagekids()">Kids</button>
+                    <button onclick="pageacessorios()">Acessórios</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+        <div class="slider">
+            <div class="slider--width">
+                <div class="slider--item" style="background-image: url('img/img3.jpg')">
+                    <div class="slide1-content">
+                        <h3>Grateful Dead</br>x</br>Mike SB Dunk Low</h3>
+                        <p>A Nike Skateboarding se uniu à lendária banda de rock psicodélico Grateful Dead para lançar o Nike SB Dunk Low Grateful Dead Bears Yellow, agora disponível no Droper. O tema do design desta colaboração é uma homenagem aos Grateful Dead Bears, uma série de ursos dançantes estilizados ilustrados por Bob Thomas na contracapa do álbum History of the Grateful Dead, Volume One (Bear's Choice) em 1973.</p>
+                        <button onclick="colecao1()">Ver coleção</button>
+                    </div>
+                </div>
+
+                <div class="slider--item" style="background-image: url('img/img0.png')">
+                    <div class="slide1-content">
+                        <h3>Yeezy 350</br>"Beluga 2.0"</h3>
+                        <p>o Yeezy Boost 350 V2 'Beluga' apresenta uma parte superior cinza Primeknit com letras vermelhas, marca SPLY 350 e uma entressola cinza translúcida que abriga o Boost de corpo inteiro.</p>
+                        <button onclick="colecao3()">Ver coleção</button>
+                    </div>
+                </div>
+
+                <div class="slider--item" style="background-image: url('img/img1.jpg')">
+                    <div class="slide1-content">
+                        <h3>Yeezy 700</br>"Wave Runner"</h3>
+                        <p>O design do Yeezy Wave Runner 700 é único, é como o tipo de tênis que você ama ou odeia. Se você está nesta página, pode perceber que este tênis não o deixa indiferente. Composto por um cabedal em lona cinza e Suede Azul, o Yeezy Wave Runner 700 se destaca pela sola reforçada, embelezada com notas de laranja e atacadores amarelos claros.</p>
+                        <button onclick="tenis1()">Saiba mais</button>
+                    </div>
+                </div>
+
+                <div class="slider--item" style="background-image: url('img/img5.jpg')">
+                    <div class="slide1-content">
+                        <h3>Adilas NMD</br>x</br>Pharrel Williams</h3>
+                        <p>Tênis 'Human Race NMD Cloud Mood' preto, Adidas. Possui estilo slip-on e solado em borracha. Este modelo é originário de um marketplace de tênis premium, cujo estoque traz os tênis de edição limitada mais desejados do momento. Imagine um tênis difícil de achar, em qualquer lugar do mundo, este é um deles.</p>
+                        <button onclick="colecao2()">Ver coleção</button>
+                    </div>
+                </div>
+
+                <div class="slider--item" style="background-image: url('img/img2.jpg')">
+                    <div class="slide1-content">
+                        <h3>HELLO KITTY</br>x</br>NIKE PRESTO QS</h3>
+                        <p>Deixe o mito se tornar realidade e entre em um mundo de arco-íris e alegria com o Nike Air Presto x Hello Kitty. Do detalhe personalizado no calcanhar até o laço vermelho na língua, seu personagem de desenho animado super fofo favorito se junta à sua jornada.</p>
+                        <button onclick="tenis2()">Saiba mais</button>
+                    </div>
+                </div>
+
+                <div class="slider--item" style="background-image: url('img/img4.jpg')">
+                    <div class="slide1-content">
+                        <h3>Mike</br>Blazer Mid'77 Jumbo</h3>
+                        <p>Aclamado por seu look e conforto, o Nike Blazer Mid '77 Jumbo atualiza uma peça essencial do guarda-roupa. Aproveitando o look old school que você adora, ele tem agora um calcanhar elástico com textura semelhante ao veludo e puxadores grandes para facilitar na hora de calçar e tirar. O design Swoosh oversized e os cadarços jumbo criam um toque divertido.</p>
+                        <button onclick="tenis4()">Saiba mais</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="slider--controls" style="height: 50px;">
+            <div class="slider--control" onclick="goPrev()"><span class="material-symbols-outlined">arrow_back_ios_new</span></div>
+            <div class="slider--control" onclick="goNext()"><span class="material-symbols-outlined">arrow_forward_ios</span></div>
+        </div>
+
+        <div class="footer">
+            <p>by victor</p>
+        </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
